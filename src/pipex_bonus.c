@@ -6,7 +6,7 @@
 /*   By: soahn <soahn@student.42seoul.kr>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/17 00:07:14 by soahn             #+#    #+#             */
-/*   Updated: 2021/09/04 14:03:09 by soahn            ###   ########.fr       */
+/*   Updated: 2021/09/04 21:31:14 by soahn            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,4 @@ int	main(int argc, char *argv[], char *envp[])
 	init(&x, argc, argv, envp);
 	my_execute(&x, envp);
 	free_args(&x);
-	while (1)
-		;
 }
