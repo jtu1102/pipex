@@ -6,7 +6,7 @@
 #    By: soahn <soahn@student.42seoul.kr>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/08/25 19:18:55 by soahn             #+#    #+#              #
-#    Updated: 2021/08/31 10:40:52 by soahn            ###   ########.fr        #
+#    Updated: 2021/09/06 11:18:55 by soahn            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,6 @@ CC = gcc
 CFLAGS = -Wall -Werror -Wextra
 RM = rm -f
 NAME = pipex
-STDIN = .pipe_heredoc
 
 HEADIR = ./include/
 SRCDIR = ./src/
